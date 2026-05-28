@@ -48,19 +48,21 @@ Desktop.ini
 *.parquet
 *.h5
 *.hdf5
+/data
 
 # Model files (large files)
 *.pth
 *.pt
 *.ckpt
 *.bin
+*.keras
 
 # Logs
 *.log
 logs/
 
 # Environment
-.env
+*.env
 .venv
 env/
 venv/
